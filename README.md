@@ -10,8 +10,8 @@
 ### Is the slope of the linear model considered to be zero? Why or why not?
 ![Model P Value] https://github.com/BBBrian1124/MechaCar_Statistical_Analysis/blob/main/Challenge/Images/D1_Model_P_Value.PNG
 * Null and Alternative Hypothesis for linear regression is as follows:
-  * H0 : The slope of the linear model is zero, or m = 0
-  * Ha : The slope of the linear model is not zero, or m ≠ 0
+   * H0 : The slope of the linear model is zero, or m = 0
+   * Ha : The slope of the linear model is not zero, or m ≠ 0
 * The P value for our model is 5.35e-11 which is below the 'standard' 0.05 significance level therefore there is sufficient statistical evidence that our null hypothesis is not true, and therefore we would reject our null hypothesis
 * Therefore, the slope of the linear model is not considered to be 0, as we have rejected H0 and 'accepted' Ha
 
@@ -40,10 +40,10 @@
 ## Deliverable 4: Study Design -  MechaCar vs Competition
 * Statistical Study and Metrics: In comparing how the MechaCar compares against its competition, we can perform a statistical study on specific metrics to see how those metrics for MechaCar compare with their competitors. For example, one metric that can be tested is the cars' safety rating, which we can use to compare how safe MechaCar is compared to others 
 * Hypothesis Testing: In our hypothesis, we can create the following null and alternative hypotheses 
- * H0: there isn't a significant difference from the mean (i.e. MechaCar's safety rating is similar to its competitors)
- * Ha: there is a significant difference from the mean (i.e. MechaCar's safety rating is not similar to its competitors)
-* Statistical Tests: To test this hypothesis, we can perform a two sample T-tests; a Two-sample T-test answers the question: Is there a statistical difference between the distribution means from two samples (i.e. a sample of MechaCar vs. a sample of their competitors). The reason for completing this two sample T-test is that it will provide us insight into how MechaCar compares against our competitors and let us know what further questions need to be asked/investigated. For example, if there isn't a significant difference, then MechaCar is just "average" or similar to their competitors, and we can ask, how to we improve or become an industry leader in safety. If there is a significant difference, then we need to look at which way is the difference (i.e. worse or better than competitors) and then we can ask how to improve or what is setting MechaCar apart in safety and how can we continue those practices
-* Data Needed: Data needed for this would be MechaCar's safety rating, as well as a list of competitors and their safety ratings. We may also want further information on what metrics are used to calculate the safety rating, then obtain data related to that. For example, if safety rating is based on # of air bags, ability to stop quicker, minimal framework damage on the vehicle, we may want data that can impact that such as quality of brake pads and materials used to build the vehicle
+   * H0: there isn't a significant difference from the mean (i.e. MechaCar's safety rating is similar to its competitors)
+   * Ha: there is a significant difference from the mean (i.e. MechaCar's safety rating is not similar to its competitors)
+* Statistical Tests: To test this hypothesis, we can perform a two sample T-tests; a Two-sample T-test answers the question: Is there a statistical difference between the distribution means from two samples (i.e. a sample of MechaCar vs. a sample of their competitors). The reason for completing this two sample T-test is that it will provide us insight into how MechaCar compares against our competitors and let us know what further questions need to be asked/investigated. For example, if there isn't a significant difference, then MechaCar is just "average" or similar to their competitors, and we can ask, how to we improve or become an industry leader in safety. If there is a significant difference, then we need to look at which way is the difference (i.e. worse or better than competitors) and then we can ask how to improve, or what is setting MechaCar apart in safety, and how can we continue those practices
+* Data Needed: Data needed for this would be MechaCar's safety rating, as well as a list of competitors and their safety ratings. We may also want further information on what metrics are used to calculate the safety rating, then obtain data related to that. For example, if safety rating is based on # of air bags, ability to stop quicker, minimal framework damage on the vehicle, etc., we may want data that can impact those factors such as quality of brake pads and materials used to build the vehicle
 
 
 ## Appendix
